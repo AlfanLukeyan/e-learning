@@ -1,0 +1,63 @@
+@import "global.css";
+
+main {
+  margin: 0;
+  padding-top: 68px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.main-div {
+  max-height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+  gap: 32px;
+}
+
+.main-div h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 96px;
+
+  color: #42675a;
+}
+
+.main-div p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #42675a;
+}
+
+.main-div-button {
+  display: flex;
+  padding: 0px;
+  gap: 24px;
+}
+
+.main-div-join-now {
+  padding: 10px 28px;
+  border: 2px solid #5b8e7d;
+}
+
+.main-div-browse-course {
+  padding: 10px 28px;
+  border: 2px solid #5b8e7d;
+  background-color: transparent;
+  color: #5b8e7d;
+  transition: color 0.2s ease-in-out;
+}
+
+.main-div-browse-course:hover {
+  color: #f9fafb;
+  background-color: #5b8e7d;
+}
